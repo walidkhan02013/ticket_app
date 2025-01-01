@@ -3,19 +3,74 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
+// --------------------------------------------------
+// int age = 5;
+// String grade="C";
 
-int age = 18;
+             
+//              LIST  
+// List<int> num =[1,2,4,5];
+
+// void printNumbers(){
+//   for(int i=0;i< num.length -1 ;i++){
+//     print(num[i]);
+//   }
+// }
+
+
+
+// void greet (){
+//   print("Hello walid!");
+// }
+
+// void greetPerson(String name){
+//   print("Hello "+name);
+// }
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+  
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    // LIST
+    // printNumbers();
+      
+      // CONDITIONAL
+    // if(age>=18){
+    //   print("you are an adult");
+    // }
+    // else{
+    //   print("You are a kid");
+    // }
 
+
+    //SWITCH
+    // ------------------------------
+    // switch (grade) {
+    //   case "A":
+    //     print("Excellent");
+    //     break;
+    //   case "B":
+    //   print("Good");
+    //   break;
+        
+    //   default:
+    //   print("You have failed");
+    // }
+
+
+
+    // ---------------------------
+    // // METHODS AND FUNCTIONS
+
+
+    // greet();
+
+    //FUNCTIONS WITH OBJECTS
+    // greetPerson("Alisha");
+    // --------------------------------------------------
     
-    if(age>=18){
-      print("you are an adult");
-    }
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
